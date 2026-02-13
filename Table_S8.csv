@@ -1,0 +1,216 @@
+Pathway,KO configuration,,,,,,,,,,,,,,,,
+Aerobic metabolism,,,,,,,,,,,,,,,,,
+Oxygen reduction (cco),"((K00404+K00405),K15862)+K00407+K00406",,,,,,,,,,,,,,,,
+Oxygen reduction (coxA),"K02275+((K02274+K02276),K15408)",,,,,,,,,,,,,,,,
+Oxygen reduction (COX1),"K02257+K02262+K02256+K02261+K02263+K02264+K02265+K02266+K02267+
+K02268+K02270+K02272+K02258+K02259+K02260",,,,,,,,,,,,,,,,
+Nitrogen metabolism,,,,,,,,,,,,,,,,,
+"Assimilatory nitrate reduction to 
+nitrite","K00367,K10534,K00372",,,,,,,,,,,,,,,,
+"Assimilatory nitrate reduction to 
+ammonia","(K00366,K17877,K26139)+(K26138,K00361)",,,,,,,,,,,,,,,,
+"Dissimilatory nitrate reduction to 
+nitrite","(K00370+K00371+K00374),(K02567+K02568)",,,,,,,,,,,,,,,,
+"Dissimilatory nitrite reduction to 
+ammonia","(K00362+K00363),(K03385+K15876)",,,,,,,,,,,,,,,,
+"Dissimilatory nitrite reduction 
+to NO","K00368,K15864",,,,,,,,,,,,,,,,
+Dissimilatory NO reduction to N2O ,K04561+K02305,,,,,,,,,,,,,,,,
+Nitrogen fixation,"(K02588+K02586+K02591),(K22896+K22897+K22898+K22899)",,,,,,,,,,,,,,,,
+Anammox,(K20932+K20933+K20934)?K20935,,,,,,,,,,,,,,,,
+Nitrite oxidation to nitrate,K00370+K00371,,,,,,,,,,,,,,,,
+Sulfur metabolism,,,,,,,,,,,,,,,,,
+"Assimilatory sulfate reduction 
+to sulfite","((K00958+K00860),(K00955+K00957),(K00956+K00957+K00860))?K00390",,,,,,,,,,,,,,,,
+"Assimilatory sulfate reduction 
+to sulfide","(K00380+K00381),K00392,(K16950+K16951+K00385)",,,,,,,,,,,,,,,,
+"Dissimilatory sulfate reduction 
+to sulfite",K00958?(K00394+K00395),,,,,,,,,,,,,,,,
+"Dissimilatory sulfite reduction 
+to sulfide",(K11180+K11181)?(K27187+K27188+K27189+K27190+K27191),,,,,,,,,,,,,,,,
+Sulfur reduction to sulfide,"K18367,(K17219+K17220+K17221)",,,,,,,,,,,,,,,,
+"Thiosulfate disproportionation 
+to sulfite and sulfide",K08352+K08353+K08354,,,,,,,,,,,,,,,,
+"Thiosulfate disproportionation 
+to sulfate and sulfur ","((K16937+K16936),K05908,K19713))?K27925",,,,,,,,,,,,,,,,
+Sulfide oxidation to sulfur,K17229+K17230,,,,,,,,,,,,,,,,
+Thiosulfate oxidation to sulfate,K17222+K17223+K17224+K17226+K17227,,,,,,,,,,,,,,,,
+Methanogenesis,,,,,,,,,,,,,,,,,
+Methyl-CoM reductase ,"(K00399+K00401+K00402)?((K22480+K22481+K22482),(K03388+K03389+K03390),
+(K08264+K08265),
+(K03388+K03389+K03390+K14127+((K14126+K14128),(K22516+K00125)))",,,,,,,,,,,,,,,,
+CO2 reduction,"K00200+K00201+K00202+K00203+(K00205,K11260,K00204))
+?K00672?K01499?(K00319,K13942)?K00320?
+(K00577+K00578+K00579+K00580+K00581+K00584)",,,,,,,,,,,,,,,,
+Acetotrophy,"((K00925?K00625),K01895)?(K00193+K00197+K00194)?
+(K00577+K00578+K00579+K00580+K00581+K00584)",,,,,,,,,,,,,,,,
+Methanol methylotrophy,K14080+K04480+K14081,,,,,,,,,,,,,,,,
+MMA methylotrophy,K14082?K16177,,,,,,,,,,,,,,,,
+DMA methylotrophy,K14082?K16179,,,,,,,,,,,,,,,,
+TMA methylotrophy,K14082?K14084,,,,,,,,,,,,,,,,
+Fermentation,,,,,,,,,,,,,,,,,
+"Formaldehyde fermentation 
+from methanol","(K14028+K14029),K23995,K17066,K00093",,,,,,,,,,,,,,,,
+"Formaldehyde fermentation 
+from MMA","((K22081+K22082+K22083)?(K22084+K22085+K22086+K22087)),
+(K08685+K15228+K15229)",,,,,,,,,,,,,,,,
+"Formate fermentation from 
+formaldehyde","K00148,(K03396?K00121?K01070),K17067",,,,,,,,,,,,,,,,
+"Ethanol fermentation from 
+acetaldehyde (?)","K00001,K13951,K13953,K13954,K00121,K04072,K04022,K00002,K12957,
+K13979,(K14028+K14029),K00114",,,,,,,,,,,,,,,,
+"Acetaldehyde fermentation 
+from acetyl-CoA (?)","K00132,K04072,K04073",,,,,,,,,,,,,,,,
+"Acetogenesis from 
+acetaldehyde (?)","K00128,K14085,K00149,K00138,K00129",,,,,,,,,,,,,,,,
+Acetogenesis from acetyl-CoA (?),"((K00625,K13788,K15024)?(K00925,K01512)),K01067,(K01905+K22224),
+K24012,K01026,K18118,K01895,K01913",,,,,,,,,,,,,,,,
+Acetogenesis from pyruvate (?),"K00156,(K00158?(K00925,K01512))",,,,,,,,,,,,,,,,
+Formate oxidation to CO2 and H2,"K00122,(K00123+K00124+K00126+K00127+K22515),(K00125+K22516)",,,,,,,,,,,,,,,,
+H2 production,"(K00533+K00534),(K14126+K14127+K14128),(K00437+K18008)",,,,,,,,,,,,,,,,
+CO2 fixation,,,,,,,,,,,,,,,,,
+"Reductive acetyl-CoA 
+(Wood-Ljungdahl) pathway","K00198?K05299,(K22015+K25123+K25124)?K01938?K01491?K00297?
+K15023?(K14138+K00197+K00194)",,,,,,,,,,,,,,,,
+Pta-AckA pathway,"(K00625,K13788,K15024)?K00925",,,,,,,,,,,,,,,,
+"Reductive citrate 
+(Arnon-Buchanan) cycle","((K00169+K00170+K00171+K00172),K03737)?
+(((K01007,K01006)?K01595),(K01959+K01960),K01958)?K00024?
+(K01676,K01679,(K01677+K01678))?
+((K00239+K00240),(K18556+K18557+K18558+K18559+K18560))?
+(K01902+K01903)?(K00174+K00175)?K00031?(K01681,K27802,K01682)?
+((K15230+K15231),((K15232+K15233)?K15234))",,,,,,,,,,,,,,,,
+"Reductive pentose phosphate 
+(Calvin) cycle ","K00855?K01601?K00927?(K05298,K00150,K00134)?K01803?
+(K01623,K01624)?(K03841,K02446,K11532,K01086)?K00615?
+(K01100,K11532,K01086)?(K01807,K01808)?K01783",,,,,,,,,,,,,,,,
+"Hydroxypropionate-hydroxybutylate 
+cycle","(K01964+K15037+K15036)?K15017?K15039?K15018?K15019?K15020?
+K05606?(K01848+K01849)?(K15038,K15017)?K14465?
+(K14466,K18861,K25774)?K14534?K15016?K00626",,,,,,,,,,,,,,,,
+Dicarboxylate-hydroxybutyrate cycle,"(K00169+K00170+K00171+K00172)?K01007?K01595?K00024?
+(K01677+K01678)?(K00239+K00240)?(K01902+K01903)?(K15038,K15017)?
+K14465?(K14467,K18861,K25774)?K14534?K15016?K00626",,,,,,,,,,,,,,,,
+Incomplete reductive citrate cycle,"(K00169+K00170+K00171+K00172)?(K01959+K01960)?K00024?
+(K01677+K01678)?(K18209+K18210)?(K01902+K01903)?
+(K00174+K00175+K00176+K00177)",,,,,,,,,,,,,,,,
+Central carbohydrate metabolism,,,,,,,,,,,,,,,,,
+Glycolysis,"K01803?(((K00134,K00150)?K00927),K11389)?
+(K01834,K15633,K15634,K15635)?(K01689,K27394)?(K00873,K12406)",,,,,,,,,,,,,,,,
+Gluconeogenesis,"(K01596,K01610)?(K01689,K27394)?(K01834,K15633,K15634,K15635)?
+K00927?(K00134,K00150)?K01803?
+(((K01623,K01624,K11645)?(K03841,K02446,K11532,K01086,K04041)),K01622)",,,,,,,,,,,,,,,,
+Pyruvate oxidation,"((K00163,K00161+K00162)+K00627+K00382),
+(K00169+K00170+K00171+(K00172,K00189)),
+K03737",,,,,,,,,,,,,,,,
+Citric acid (TCA/Krebs) cycle,"(K01647,K05942,K01659)?(K01681,K27802,K01682)?(K00031,K00030)?
+(((K00164+K00658),K01616)+K00382),(K00174+K00175))?
+((K01902+K01903),(K01899+K01900),K18118)?
+(((K00234+K00235+K00236+(K00237,K25801)),(K00239+K00240+K00241),
+(K00244+K00245+K00246))?(K01676,K01679,(K01677+K01678))? (K00026,K00025,K00024,K00116)",,,,,,,,,,,,,,,,
+Pentose phosphate cycle,"(K13937,((K00036,K19243)?(K01057,K07404)))?K00033?K01783?
+(K01807,K01808)?K00615?((K00616?(K01810,K06859,K15916)),K13810)",,,,,,,,,,,,,,,,
+"Pentose phosphate cycle, archaea","((K08094?(K08093,K13812)),K13831)?K01807",,,,,,,,,,,,,,,,
+Entner-Doudoroff pathway,"K00036?(K01057,K07404)?K01690?K01625",,,,,,,,,,,,,,,,
+Ribulose monophosphate pathway,"(((K08093,K13812)?K08094),K13831)?(K00850,K16370,K21071)?K01624",,,,,,,,,,,,,,,,
+Aerobic heterotrophy,,,,,,,,,,,,,,,,,
+BTEX: benzene ? catechol,"((K03268+K16268+K18089+K18090)?K16269),
+(K16249+K16242+K16243+K16244+K16245+K16246) ",,,,,,,,,,,,,,,,
+"BTEX: toluene ? 
+benzoate/3-methylcatechol","((K15760+K15761+K15763+K15764)?K00055?K00141),
+((K03268+K16268+K18089+K18090)?K16269?K16270?K10702)",,,,,,,,,,,,,,,,
+BTEX: ethylbenzene ? benzoate ,(K14758+K14749+K14750)?EC1.3.1.66?K14751?K18092,,,,,,,,,,,,,,,,
+BTEX: xylene?methylbenzoate ,(K15757+K15758)?K00055?K00141,,,,,,,,,,,,,,,,
+"PAHs: (1-methyl)naphthalene/
+anthracene ? catechol ","(K14759+K14580+K14578+K14581)?
+K14582?K14583?K14584?K14585?K00152?K00480",,,,,,,,,,,,,,,,
+PAHs: phenanthrene ? phthlate,"((K11943+K11944)?K18257?K11945?R05642?K11946?K11947?
+(K00480,(K11948?K11949?K18275))",,,,,,,,,,,,,,,,
+PAHs: fluorene ? phthlate,"((K14759+K14580+K14578+K14581),(K14599+K14600))?EC1.1.1.256?
+K14601?(K14602+K14603)?K14604",,,,,,,,,,,,,,,,
+Aromatic acids: (methyl)benzoate ? (methyl)catechol,(K05549+K05550+K05784)?K05783,,,,,,,,,,,,,,,,
+"Aromatic acids: phenylacetate ? 
+acetyl-CoA/succinyl-CoA","K01912?(K02609+K02610+K02611+K02612+K02613)?K15866?K02618?
+(K02615+K15866)?K01692?K00074?K02615",,,,,,,,,,,,,,,,
+"Aromatic acids: phthalate ? 
+benzoate precursor","(((K18068+K18069)?K18067?K04102),
+((K18251+K18252+K18253)?K18255?K18256))?
+(K04100+K04101)?(K00448?K00449)",,,,,,,,,,,,,,,,
+"Dearomatisation: 
+catechol ortho-cleavage","K00381?K01856?K03464?(K01055,K14727)",,,,,,,,,,,,,,,,
+"Dearomatisation: 
+catechol meta-cleavage","(K00446,K07104)?(K10216,(K10217+K01821+K01617))?(K18364,K02554)?
+(K18365,K01666)?(K18366,K04073)",,,,,,,,,,,,,,,,
+Methylotrophy,,,,,,,,,,,,,,,,,
+Anaerobic methanol degradation ,"(K14028+K14029),K00093",,,,,,,,,,,,,,,,
+Anaerobic MMA degradation,"(K15228+K15229),K08685,
+((K22081+K22082+K22083)?(K22084+K22085+K22086+K22087))",,,,,,,,,,,,,,,,
+Aerobic TMA/DMA degradation ,K18277?K00605?(K22342+K22343+K22344),,,,,,,,,,,,,,,,
+Anaerobic heterotrophy,,,,,,,,,,,,,,,,,
+"Fumarate addition: 
+alkanes ? succinate","K00656,K04069",,,,,,,,,,,,,,,,
+"Fumarate addition: 
+toluene ? benzoyl-CoA","K07540?(K07543+K07544)?K07545?K07546?(K07547+K07548)?
+(K07549+K07550)",,,,,,,,,,,,,,,,
+"Fumarate addition: 
+2-methylnaphthalene ? 
+2-naphthoyl-CoA","(K01670+K15567+K15568)?(K15569+K15570)?K15571?K15572?
+(K15573+K19958)?(K15574+K15575)",,,,,,,,,,,,,,,,
+"Hydroxylation: ethylbenzene ? 
+benzoyl-CoA/acetyl-CoA",(K10700+K17048+K17049)?K14746?K10701?K14747?K00632,,,,,,,,,,,,,,,,
+"Carboxylation: 
+phenol ? benzoyl-CoA","(((K25936+K25937+K25938)?(K25932+K25933+K25934+K25935)),
+((K01612,K16239)+K21759)))?
+K04105?(K04107+K04108+K04109)                  ",,,,,,,,,,,,,,,,
+"CoA activation: 
+propanoate ? propanoyl-CoA","(K00925,K00932,K19697)?(K13788,K00625,K15024,K13923)",,,,,,,,,,,,,,,,
+"CoA activation: 
+acetoacetate ? acetyl-CoA","((K01034+K01035),K19709,(K01028+K01029),K01027,K01907)?K00626",,,,,,,,,,,,,,,,
+"CoA activation: 
+butyrate ? acetyl-CoA","(K01034+K01035),K19709,(K00929?K00634)",,,,,,,,,,,,,,,,
+"CoA activation: 
+LCFA ? palmitoyl-CoA","K01897,K15013",,,,,,,,,,,,,,,,
+Quorum sensing,,,,,,,,,,,,,,,,,
+" Acyl homoserine 
+lactone (AHL) autoinducers","(K13060?K18304),(K13062?K15850?K10911?K10912),(K22954?K15852),
+(K18096?(K18068,K18099)),(K22956?K19734?K19735),(K13061?K19666),
+(K20250?K19731),(K22957?K20334),(K22968?K19733)",,,,,,,,,,,,,,,,
+ Non-AHL autoinducers,"(((K07173?(K10910+K10909)),(K10915?K10916))?K10911?K10912),
+(((K01657+K01658),(K18000+K18003))?K19735),
+(K07173?(K10555+K10556+K10557+K10558)?K11216),
+((K13816,K01897)?(K10715+K13815)),(K13816?K14051),
+(((K07800?K07813),(K20343?(K20344+K20345))?(K07706?K07707)),
+(K14982?K14983),((K12415,K23133)?(K12992+K12993)?K12994?K12995),
+((K02252,K20376)?(K15580+K15581+K15582+K15583+K10823)?
+(K20342,K20377)),(K02253?K02251?K07680?K07691)",,,,,,,,,,,,,,,,
+Signaling systems,,,,,,,,,,,,,,,,,
+cAMP/CRP system,K05851?K10914,,,,,,,,,,,,,,,,
+c-di-GMP system,"(K20954,K20955,K20956,K20957,K20958,K20959,K20960,K20961,
+K21019,K21020,K21021,K21022,K21023)?
+(K20962,K20963,K13246,K07181,K20964,K20965,K20966,K21024)",,,,,,,,,,,,,,,,
+Chemotaxis: methyl-accepting protein,"(K03411,K00575,K03412,K13924)?
+(K03406,K05874,K05875,K05876,K05877)?
+(K03407+K03408)?(K03415+K03413+K3410+K03414+K03409)",,,,,,,,,,,,,,,,
+Chemotaxis: aerotaxis,K03776?(K03407+K03408)?(K03415+K03413+K3410+K03414+K03409),,,,,,,,,,,,,,,,
+EPS/biofilm/biosurfactant biosynthesis,,,,,,,,,,,,,,,,,
+Alginate (agl),"K08082?K08083?K00066?
+(K19290+K19291+K19293+K19294+K19295+K19295+K19296)",,,,,,,,,,,,,,,,
+Rhamnolipids (rhl),K18099+K18100+K18101+K12990,,,,,,,,,,,,,,,,
+Lectins (lec),K18099+K20258+K20259,,,,,,,,,,,,,,,,
+Polysaccharides (psl),"K20997,K25205,K20999,K21001,K21002",,,,,,,,,,,,,,,,
+Polysaccharides (pel),"K21006,K21007,K21008,K21009,K21010,K21011,K21012",,,,,,,,,,,,,,,,
+Poly-N-acetyl-glucosamine (PNAG),"K11936+(K11937,K21461)",,,,,,,,,,,,,,,,
+Colanic acid (wca),"K16710?K16703?(K25875+K03819)?K13684?(K13683+K03818)?
+K03208?K03606",,,,,,,,,,,,,,,,
+Trehalose (tre),"K00975?K00703?(K00700,K16149)?K01214?K06044?K01236",,,,,,,,,,,,,,,,
+Acetan (ace),"K25891?K25890?K25889?(K13659+K25892+K13663)?K13657?
+(K25892+K13663)?K25888?K25887",,,,,,,,,,,,,,,,
+Heat shock and oxidative stress response,,,,,,,,,,,,,,,,,
+Repressive regulation (hspR/hrcA),"K13640,K03705",,,,,,,,,,,,,,,,
+"Protein refolding (HSP70/dnaJ, 
+HSP40/dnaK, HSP24/grpE)",K03686+K04043+K03687,,,,,,,,,,,,,,,,
+"Protein encapsulation (HSP60/groEL, 
+HSP/groES)",K04077+K04078,,,,,,,,,,,,,,,,
+Protein deaggregation (HSP20/sHSPs),K04080+K04081,,,,,,,,,,,,,,,,
+Protein repair/removal (HSP100/clp),"K01358,K03694,K03695,K03696,K03697,K04086,K03544,K03667",,,,,,,,,,,,,,,,
+Thioredoxin system (trx),K03671+K00384+K03672,,,,,,,,,,,,,,,,
