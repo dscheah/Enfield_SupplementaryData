@@ -1,4 +1,4 @@
 # Enfield\_SupplementaryData
 
-Supplementary data from metagenomics analysis of production fluids obtained from the Enfield petroleum reservoir. Paper is currently under review at Environmental Microbiology. Kindly contact me at darren.cheah@curtin.edu.au for any inquiries on the data. 
+This folder contains supplementary data from the paper titled "Waterflooding Putatively Alters the Microbial Dynamics of a Petroleum Reservoir from Indigenous Syntrophic Fermentation and Methanogenesis to Facultative Denitrification: A Metagenomics Perspecrtive", currently under review at Environmental Microbiology. Kindly contact darren.cheah@curtin.edu.au for inquiries and editable access to supplementary data. 
 
